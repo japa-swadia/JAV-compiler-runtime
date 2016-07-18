@@ -1,0 +1,13 @@
+checkGreater<<5,6>>
+
+method checkGreater << a, b>> 
+{
+	if<<a > b>> 
+	{
+		print:: a
+	}
+	else 
+	{
+		print:: b
+	}
+}
